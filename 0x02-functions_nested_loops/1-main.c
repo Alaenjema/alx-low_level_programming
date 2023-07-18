@@ -3,7 +3,6 @@
 
 	/**
 	 * main - check the code
-	 * entry point
 	 * Return: Always 0.
 	 */
 	int main(void)
