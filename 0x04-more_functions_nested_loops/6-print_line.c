@@ -1,28 +1,18 @@
 #include "main.h"
 
 /**
- * more_numbers - prints more numbers
+ * print_line - prints line
+ * @n: param
  */
 
-void more_numbers(void)
+void print_line(int n)
 {
-	int i, j;
+	int i = 1;
 
-	i = 0;
-
-	while (i < 10)
+	while (i <= n)
 	{
-		for (j = 0; j < 15; j++)
-		{
-			if (j >= 10)
-			{
-				_putchar((j / 10) + 48);
-			}
-			_putchar((j % 10) + 48);
-		}
-
-		_putchar('\n');
-
+		_putchar(95);
 		i++;
 	}
+	_putchar('\n');
 }
